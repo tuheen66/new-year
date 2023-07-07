@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  display: flex;
+  background: url("images/banner/banner2.png"), lightgray 50% / cover no-repeat;
+  width: 100vw;
+  height: 809px;
+  background-size: cover;
+  /* align-items: center; */
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.banner-text {
+  padding: 200px 230px 200px 845px;
+}
+
+.banner-description {
+  width: 494 px;
+  color: #444343;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.banner-title {
+  display: flex;
+  width: 525px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #151414;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn {
+  color: #fff;
+
+  font-family: Work Sans;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: #f15b22;
+  margin-top: 35px;
+}
