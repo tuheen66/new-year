@@ -106,3 +106,73 @@ body {
   bottom: 0px;
   right: -5px;
 }
+
+/* my pla section */
+
+.plans-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.my-plans {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px 100px;
+  text-align: center;
+}
+
+.plan-box img {
+  width: 80px;
+}
+
+.plan-heading {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.plan {
+  color: #737272;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+/* contact section */
+
+.contact-wrapper {
+  background-image: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0)),
+    url("images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 200px 50px;
+  padding: 30px 300px 30px 50px;
+}
+
+.contact-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact-btn {
+  color: #f15b22;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: white;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-btn:hover {
+  /* font-size: 25px;
+  font-weight: 700; */
+  transform: scale(1.2);
+}
+
+/* footer section */
