@@ -43,6 +43,7 @@ body {
   font-family: Work Sans;
   font-size: 20px;
   padding: 20px 30px;
+  border: none;
   border-radius: 5px;
   background: #f15b22;
   margin: 35px 0;
@@ -57,7 +58,7 @@ body {
 
 .failure-text {
   margin-right: 175px;
-  margin-top: 150px;
+  margin-top: 115px;
 }
 
 .failure-title {
@@ -91,11 +92,11 @@ body {
 }
 
 .image {
-  margin: 300px 845px 50px 100px;
+  margin: 300px 845px 50px 200px;
   background-color: rgba(241, 91, 34, 0.2);
-  width: 500px;
-  height: 500px;
-  border-radius: 500px;
+  width: 450px;
+  height: 450px;
+  border-radius: 450px;
   background-position: cover;
   position: relative;
 }
@@ -176,3 +177,50 @@ body {
 }
 
 /* footer section */
+
+footer {
+  background-color: #151414;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  padding: 80px 200px;
+}
+
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  color: #fff;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.footer-email,
+.phone {
+  margin: 15px 0;
+}
+
+.soicial-icons img {
+  width: 40px;
+  margin: 20px 15px 0 0;
+}
+
+.subscribe {
+  font-size: 25px;
+}
+
+.footer-right input {
+  display: block;
+}
+
+.footer-right .footer-email {
+  background-color: #151414;
+  padding: 10px 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
