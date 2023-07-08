@@ -11,17 +11,16 @@ body {
 /*  banner section */
 .banner {
   display: flex;
-  background: url("images/banner/banner2.png"), lightgray 50% / cover no-repeat;
-  width: 100vw;
-  height: 809px;
+  background-image: url("images/banner/banner2.png");
+  background-color: lightgray 50%;
   background-size: cover;
-  /* align-items: center; */
+  background-repeat: no-repeat;
+  height: 100vh;
   justify-content: flex-end;
-  text-align: right;
 }
 
 .banner-text {
-  padding: 200px 230px 200px 845px;
+  margin: 150px 230px 150px 845px;
   text-align: right;
 }
 
@@ -46,5 +45,64 @@ body {
   padding: 20px 30px;
   border-radius: 5px;
   background: #f15b22;
-  margin-top: 35px;
+  margin: 35px 0;
+}
+
+.failure-container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.failure-text {
+  margin-right: 175px;
+  margin-top: 150px;
+}
+
+.failure-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.failure-description {
+  color: #444343;
+  line-height: 26px;
+  margin-top: 24px;
+}
+
+.check-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.check-list svg {
+  margin-right: 10px;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+
+.failures {
+  width: 40%;
+}
+
+.image {
+  margin: 300px 845px 50px 100px;
+  background-color: rgba(241, 91, 34, 0.2);
+  width: 500px;
+  height: 500px;
+  border-radius: 500px;
+  background-position: cover;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: -5px;
 }
