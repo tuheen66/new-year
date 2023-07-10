@@ -102,10 +102,13 @@ body {
 }
 
 .image img {
-  width: 100%;
+  width: 80%;
   position: absolute;
   bottom: 0px;
-  right: -5px;
+  right: 40px;
+  overflow: hidden;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 175px;
 }
 
 /* my pla section */
